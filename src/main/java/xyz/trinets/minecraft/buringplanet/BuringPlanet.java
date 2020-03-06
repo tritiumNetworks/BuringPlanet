@@ -16,6 +16,7 @@ public final class BuringPlanet extends JavaPlugin {
         // Plugin startup logic
         logger.info("TriNet Buring Planet V1 is Loaded!");
         server.getScheduler().scheduleSyncRepeatingTask(this, new OnEveryTick(), 1l, 1l);
+        plMng.registerEvents(new RandomFire(), this);
     }
 
     @Override
