@@ -1,0 +1,7 @@
+name: BuringPlanet
+version: ${project.version}
+main: xyz.trinets.minecraft.buringplanet.BuringPlanet
+api-version: 1.13
+authors: [TriNet, PMH]
+description: Overworld is Buring
+website: https://github.com/tritiumNetworks/BuringPlanet
